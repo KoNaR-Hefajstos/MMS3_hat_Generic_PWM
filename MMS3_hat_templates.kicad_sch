@@ -1922,6 +1922,16 @@
 		)
 		(uuid "70605165-b1d3-4f2d-9f16-6a6b57660657")
 	)
+	(wire
+		(pts
+			(xy 52.07 130.81) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76436f84-e634-4bf5-bb3c-e85e480e8134")
+	)
 	(bus
 		(pts
 			(xy 41.91 80.01) (xy 52.07 80.01)
@@ -15117,8 +15127,8 @@
 		)
 	)
 	(sheet
-		(at 129.54 41.91)
-		(size 85.09 45.72)
+		(at 78.74 122.555)
+		(size 31.75 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15133,7 +15143,7 @@
 		)
 		(uuid "20c29ce9-76ab-46e4-9659-7b2a9d6f4a03")
 		(property "Sheetname" "Przetwornica DC-DC"
-			(at 129.54 41.1984 0)
+			(at 78.74 121.8434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15144,7 +15154,7 @@
 			)
 		)
 		(property "Sheetfile" "Switching_power_supply.kicad_sch"
-			(at 129.54 88.2146 0)
+			(at 78.74 148.5396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15152,6 +15162,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 78.74 130.81 180)
+			(uuid "0b27039f-b6f1-4458-9c89-bb2ccbc5dc1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" input
+			(at 110.49 130.81 0)
+			(uuid "a777f9da-10ff-45ea-8377-f1ddb7377531")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
