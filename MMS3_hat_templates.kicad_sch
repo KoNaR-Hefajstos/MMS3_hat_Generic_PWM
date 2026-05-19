@@ -15117,6 +15117,52 @@
 		)
 	)
 	(sheet
+		(at 129.54 41.91)
+		(size 85.09 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "20c29ce9-76ab-46e4-9659-7b2a9d6f4a03")
+		(property "Sheetname" "Przetwornica DC-DC"
+			(at 129.54 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switching_power_supply.kicad_sch"
+			(at 129.54 88.2146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MMS3_hat_templates"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 62.23 17.78)
 		(size 33.02 16.51)
 		(exclude_from_sim no)

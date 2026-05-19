@@ -601,6 +601,9 @@
       "/Power Connector/VIN_BRD": [
         "50V"
       ],
+      "/Przetwornica DC-DC/sw-vin": [
+        "50V "
+      ],
       "BRD_VIN": [
         "50V "
       ],
@@ -1081,7 +1084,7 @@
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "D1",
+    "used_designators": "L1,D1-2,D4-6,C3-11,R12-20,J6,SW1,TP1,U3,U5",
     "variants": []
   },
   "sheets": [
@@ -1104,6 +1107,10 @@
     [
       "56050d79-5900-47d6-893d-3da0e8bf5810",
       "ID EEPROM"
+    ],
+    [
+      "20c29ce9-76ab-46e4-9659-7b2a9d6f4a03",
+      "Przetwornica DC-DC"
     ]
   ],
   "text_variables": {
